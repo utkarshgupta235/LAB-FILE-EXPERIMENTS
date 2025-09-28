@@ -1,3 +1,4 @@
+// 	Declare a global variable outside all functions and use it inside various functions to understand its accessibility.
 #include <stdio.h>
 int globalVar = 10;
 void function1() {
@@ -13,4 +14,5 @@ int main() {
     function2();
     printf("Main Function: Global Variable after function calls = %d\n", globalVar);
     return 0;
+
 }

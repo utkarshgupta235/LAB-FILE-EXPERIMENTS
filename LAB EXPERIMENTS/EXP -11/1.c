@@ -1,4 +1,4 @@
-//1	Write a program to apply bitwise OR, AND and NOT operators on bit level.
+//	Write a program to apply bitwise OR, AND and NOT operators on bit level.
 
 #include <stdio.h>
 void main()
@@ -11,4 +11,5 @@ void main()
     printf("Bitwise OR of %d and %d is: %d\n", a, b, a | b);
     printf("Bitwise NOT of %d is: %d\n", a, ~a);
     printf("Bitwise NOT of %d is: %d\n", b, ~b);
+
 }
